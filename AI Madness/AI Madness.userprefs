@@ -1,9 +1,12 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Player1_Movement.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\CameraXRAY.cs">
     <Files>
       <File FileName="Assets\Scripts\Player2_Movement.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Player1_Movement.cs" Line="5" Column="30" />
+      <File FileName="Assets\Scripts\Player1_Movement.cs" Line="18" Column="32" />
+      <File FileName="Assets\Scripts\SwingingTrap.cs" Line="19" Column="5" />
+      <File FileName="Assets\Scripts\PlayerBumpedMe.cs" Line="20" Column="19" />
+      <File FileName="Assets\Scripts\CameraXRAY.cs" Line="14" Column="3" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
