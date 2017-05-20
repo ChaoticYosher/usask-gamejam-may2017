@@ -22,13 +22,19 @@ namespace UnityStandardAssets.Utility
 
 		// Use this for initialization
 		void Start() { }
-
+			
 		// Update is called once per frame
 		void LateUpdate()
 		{
 			// Early out if we don't have a target
 			if (!target)
 				return;
+
+			//Matt experiment
+			if(Input.GetKeyDown("space"))
+			{
+				tempDampening();
+			}
 
 			// Calculate the current rotation angles
 			var wantedRotationAngle = target.eulerAngles.y;
@@ -56,6 +62,18 @@ namespace UnityStandardAssets.Utility
 
 			// Always look at the target
 			transform.LookAt(target);
+		}
+
+		//Matt's Experiment
+		void tempDampening()
+		{
+			rotationDamping = 10;
+			Invoke ("resetDampening", 0.3f);
+		}
+
+		void resetDampening()
+		{
+			rotationDamping = 0;
 		}
 	}
 }
